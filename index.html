@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-500 text-white p-4">
+        <h1 class="text-xl">HOME</h1>
+    </header>
+    <main class="p-8">
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Bienvenido a mi sitio</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laudantium exercitationem nemo assumenda fuga adipisci nihil culpa, aperiam beatae impedit quia maiores voluptas inventore! Inventore fugit ad molestiae at ipsam.
+            </p>
+        </section>
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4">
+                <label for="username" class="block text-gray-700 text-sm font-bold mb-2">Nombre</label>
+                <input type="text" name="username" id="username" placeholder="Ingrese su nombre" required class="shadow border rounded w-full py-2 px-3 text-gray-700 focus:shadow-outline">
+            </div>
+            <div class="mb-4">
+                <button class="bg-blue-500 p-4 text-white font-bold rounded hover:bg-blue-700 w-full" onclick="saludar()">Soy un botón</button>
+            </div>
+        </form>
+    </main>
+    <footer class="bg-blue-500 text-white p-4 text-center">
+        Derechos reservados 2024.
+    </footer>
+</body>
+</html>
