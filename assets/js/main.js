@@ -194,3 +194,19 @@ botonSumar.addEventListener('click', (event) => {
     let h1Resultado = document.getElementById("resultado_suma2");
     h1Resultado.innerHTML = `El resultado de la suma es: ${resultadoSuma}`;
 });
+
+
+    // recuperar valor cuadro texto 1
+    let cuadroTextoValor1 = document.getElementById("valor1");
+    let valor1 = cuadroTextoValor1.value;
+    // recuperar valor cuadro texto 2
+    let cuadroTextoValor2 = document.getElementById("valor2");
+    let valor2 = cuadroTextoValor2.value;
+    // sumar los valores como numeros
+    let resultadoSuma = suma2(parseInt(valor1), parseInt(valor2));
+    // Infomar el resultado en el div
+    let divResultado = document.getElementById("resultado_suma");
+    divResultado.innerHTML = `El resultado de la suma es: ${resultadoSuma}`;
+    let h1Resultado = document.getElementById("resultado_suma2");
+    h1Resultado.innerHTML = `El resultado de la suma es: ${resultadoSuma}`;
+});
